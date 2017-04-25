@@ -5,6 +5,7 @@ var Contact = React.createClass({
   render: function () {
     var {id, name, company, location, isFavourite, phone} = this.props;
     var contactClassName = isFavourite ? 'todo' : 'todo';
+    var counter = 0;
     var renderContact = () => {
       var message = 'Works at  ' + company;
 
