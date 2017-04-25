@@ -55,7 +55,7 @@ module.exports = {
       return true;
     });
 
-    // Filter by name
+    // Filter by name of the contact
     filteredContacts = filteredContacts.filter((contact) => {
       var name = contact.name.toLowerCase();
       var company = contact.company.toLowerCase();
