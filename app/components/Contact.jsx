@@ -3,6 +3,7 @@ var moment = require('moment');
 
 var Contact = React.createClass({
   render: function () {
+    // get id, name, company, location, isFavourite, phone from props variable
     var {id, name, company, location, isFavourite, phone} = this.props;
     var contactClassName = isFavourite ? 'todo' : 'todo';
     var counter = 0;
