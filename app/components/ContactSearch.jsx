@@ -1,5 +1,5 @@
 var React = require('react');
-
+// component to search contact
 var ContactSearch = React.createClass({
   handleSearch: function () {
     var showFavourites = this.refs.showFavourites.checked;
