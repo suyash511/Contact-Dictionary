@@ -9,7 +9,7 @@ $(document).foundation();
 
 // App css
 require('style!css!sass!applicationStyles')
-
+// Render to HTML element with id 'app'
 ReactDOM.render(
   <ContactDictionaryApp/>,
   document.getElementById('app')
