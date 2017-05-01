@@ -9,6 +9,7 @@ var ContactsAPI = require('ContactsAPI');
 
 var ContactDictionaryApp = React.createClass({
   getInitialState: function () {
+    // initial state of teh app with empt search text and showfavourites as false. 
     return {
       showFavourites: false,
       searchText: '',
