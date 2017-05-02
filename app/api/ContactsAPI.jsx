@@ -1,4 +1,5 @@
 var $ = require('jquery');
+// added default contacts list
 var contactsList = [
   {
     id: 1213,
