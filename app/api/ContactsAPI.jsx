@@ -37,6 +37,7 @@ var contactsList = [
 ];
 module.exports = {
   updateContacts: function (contacts){
+    // function to update Contacts
     if ($.isArray(contacts)) {
       contactsList = contacts;
       return contacts;
