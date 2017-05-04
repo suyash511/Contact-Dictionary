@@ -61,6 +61,7 @@ module.exports = {
 
     // Filter by name of the contact
     filteredContacts = filteredContacts.filter((contact) => {
+      // converting all the name and contact to lower case before comparison
       var name = contact.name.toLowerCase();
       var company = contact.company.toLowerCase();
       return searchText.length === 0 || name.indexOf(searchText) > -1 || company.indexOf(searchText) > -1;
