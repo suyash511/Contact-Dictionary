@@ -55,6 +55,7 @@ module.exports = {
       if(showFavourites){
         return contact.isFavourite;
       }
+      // else if show faurites is set to false, return all the contacts.
       return true;
     });
 
