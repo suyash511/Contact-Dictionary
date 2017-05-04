@@ -51,6 +51,7 @@ module.exports = {
 
     // Filter by showFavourites
     filteredContacts = filteredContacts.filter((contact) => {
+      // condition to check when to return contact when showFavourites is set to true, else false.
       if(showFavourites){
         return contact.isFavourite;
       }
